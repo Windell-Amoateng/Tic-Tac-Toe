@@ -105,7 +105,7 @@ public class TicTacToe {
 
         }
     }
-    // Checks to see if either the player or the computer has won
+    // Checks to see if either the player or the computer has won or if a tie has occurred
     public static String checkWinner() {
         List topRow = Arrays.asList(1, 2, 3);
         List midRow = Arrays.asList(4, 5, 6);
