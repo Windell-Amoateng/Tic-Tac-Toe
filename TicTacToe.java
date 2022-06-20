@@ -133,9 +133,9 @@ public class TicTacToe {
             else if (cpuPositions.containsAll(l)) {
                 return "CPU wins! Sorry :(";
             }
-            else if (playerPositions.size() + cpuPositions.size() == 9) {
-                return "CAT";
-            }
+        }
+        if (playerPositions.size() + cpuPositions.size() == 9) {
+            return "CAT";
         }
         return "";
     }
